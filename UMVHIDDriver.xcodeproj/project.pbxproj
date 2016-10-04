@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8584BADA1D290E8A004C21DF /* UMVHIDDriver.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8584BAD91D290E8A004C21DF /* UMVHIDDriver.hpp */; };
+		8584BADC1D290E8A004C21DF /* UMVHIDDriver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8584BADB1D290E8A004C21DF /* UMVHIDDriver.cpp */; };
+		8584BAEB1D290F11004C21DF /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 8584BAE31D290F11004C21DF /* config.h */; };
+		8584BAEC1D290F11004C21DF /* debug.h in Headers */ = {isa = PBXBuildFile; fileRef = 8584BAE41D290F11004C21DF /* debug.h */; };
+		8584BAED1D290F11004C21DF /* UMVHIDClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8584BAE51D290F11004C21DF /* UMVHIDClient.cpp */; };
+		8584BAEE1D290F11004C21DF /* UMVHIDClient.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8584BAE61D290F11004C21DF /* UMVHIDClient.hpp */; };
+		8584BAEF1D290F11004C21DF /* UMVHIDDevice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8584BAE71D290F11004C21DF /* UMVHIDDevice.cpp */; };
+		8584BAF01D290F11004C21DF /* UMVHIDDevice.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8584BAE81D290F11004C21DF /* UMVHIDDevice.hpp */; };
+		8584BAF11D290F11004C21DF /* UMVHIDService.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8584BAE91D290F11004C21DF /* UMVHIDService.cpp */; };
+		8584BAF21D290F11004C21DF /* UMVHIDService.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8584BAEA1D290F11004C21DF /* UMVHIDService.hpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8584BAD61D290E8A004C21DF /* UMVHIDDriver.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UMVHIDDriver.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		8584BAD91D290E8A004C21DF /* UMVHIDDriver.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = UMVHIDDriver.hpp; sourceTree = "<group>"; };
+		8584BADB1D290E8A004C21DF /* UMVHIDDriver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UMVHIDDriver.cpp; sourceTree = "<group>"; };
+		8584BADD1D290E8A004C21DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8584BAE31D290F11004C21DF /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		8584BAE41D290F11004C21DF /* debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = debug.h; sourceTree = "<group>"; };
+		8584BAE51D290F11004C21DF /* UMVHIDClient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UMVHIDClient.cpp; sourceTree = "<group>"; };
+		8584BAE61D290F11004C21DF /* UMVHIDClient.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = UMVHIDClient.hpp; sourceTree = "<group>"; };
+		8584BAE71D290F11004C21DF /* UMVHIDDevice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UMVHIDDevice.cpp; sourceTree = "<group>"; };
+		8584BAE81D290F11004C21DF /* UMVHIDDevice.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = UMVHIDDevice.hpp; sourceTree = "<group>"; };
+		8584BAE91D290F11004C21DF /* UMVHIDService.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UMVHIDService.cpp; sourceTree = "<group>"; };
+		8584BAEA1D290F11004C21DF /* UMVHIDService.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = UMVHIDService.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8584BAD21D290E8A004C21DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8584BACC1D290E8A004C21DF = {
+			isa = PBXGroup;
+			children = (
+				8584BAD81D290E8A004C21DF /* UMVHIDDriver */,
+				8584BAD71D290E8A004C21DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8584BAD71D290E8A004C21DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8584BAD61D290E8A004C21DF /* UMVHIDDriver.kext */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8584BAD81D290E8A004C21DF /* UMVHIDDriver */ = {
+			isa = PBXGroup;
+			children = (
+				8584BAE31D290F11004C21DF /* config.h */,
+				8584BAE41D290F11004C21DF /* debug.h */,
+				8584BAE51D290F11004C21DF /* UMVHIDClient.cpp */,
+				8584BAE61D290F11004C21DF /* UMVHIDClient.hpp */,
+				8584BAE71D290F11004C21DF /* UMVHIDDevice.cpp */,
+				8584BAE81D290F11004C21DF /* UMVHIDDevice.hpp */,
+				8584BAE91D290F11004C21DF /* UMVHIDService.cpp */,
+				8584BAEA1D290F11004C21DF /* UMVHIDService.hpp */,
+				8584BAD91D290E8A004C21DF /* UMVHIDDriver.hpp */,
+				8584BADB1D290E8A004C21DF /* UMVHIDDriver.cpp */,
+				8584BADD1D290E8A004C21DF /* Info.plist */,
+			);
+			path = UMVHIDDriver;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8584BAD31D290E8A004C21DF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8584BAEC1D290F11004C21DF /* debug.h in Headers */,
+				8584BAF01D290F11004C21DF /* UMVHIDDevice.hpp in Headers */,
+				8584BAEB1D290F11004C21DF /* config.h in Headers */,
+				8584BAEE1D290F11004C21DF /* UMVHIDClient.hpp in Headers */,
+				8584BADA1D290E8A004C21DF /* UMVHIDDriver.hpp in Headers */,
+				8584BAF21D290F11004C21DF /* UMVHIDService.hpp in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8584BAD51D290E8A004C21DF /* UMVHIDDriver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8584BAE01D290E8A004C21DF /* Build configuration list for PBXNativeTarget "UMVHIDDriver" */;
+			buildPhases = (
+				8584BAD11D290E8A004C21DF /* Sources */,
+				8584BAD21D290E8A004C21DF /* Frameworks */,
+				8584BAD31D290E8A004C21DF /* Headers */,
+				8584BAD41D290E8A004C21DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UMVHIDDriver;
+			productName = UMVHIDDriver;
+			productReference = 8584BAD61D290E8A004C21DF /* UMVHIDDriver.kext */;
+			productType = "com.apple.product-type.kernel-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8584BACD1D290E8A004C21DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = fOrest;
+				TargetAttributes = {
+					8584BAD51D290E8A004C21DF = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = RRLLY977UV;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8584BAD01D290E8A004C21DF /* Build configuration list for PBXProject "UMVHIDDriver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8584BACC1D290E8A004C21DF;
+			productRefGroup = 8584BAD71D290E8A004C21DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8584BAD51D290E8A004C21DF /* UMVHIDDriver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8584BAD41D290E8A004C21DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8584BAD11D290E8A004C21DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8584BAF11D290F11004C21DF /* UMVHIDService.cpp in Sources */,
+				8584BADC1D290E8A004C21DF /* UMVHIDDriver.cpp in Sources */,
+				8584BAED1D290F11004C21DF /* UMVHIDClient.cpp in Sources */,
+				8584BAEF1D290F11004C21DF /* UMVHIDDevice.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8584BADE1D290E8A004C21DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8584BADF1D290E8A004C21DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8584BAE11D290E8A004C21DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				DEVELOPMENT_TEAM = RRLLY977UV;
+				INFOPLIST_FILE = UMVHIDDriver/Info.plist;
+				MODULE_NAME = com.fOrest.UMVHIDDriver;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fOrest.UMVHIDDriver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		8584BAE21D290E8A004C21DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				DEVELOPMENT_TEAM = RRLLY977UV;
+				INFOPLIST_FILE = UMVHIDDriver/Info.plist;
+				MODULE_NAME = com.fOrest.UMVHIDDriver;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fOrest.UMVHIDDriver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8584BAD01D290E8A004C21DF /* Build configuration list for PBXProject "UMVHIDDriver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8584BADE1D290E8A004C21DF /* Debug */,
+				8584BADF1D290E8A004C21DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8584BAE01D290E8A004C21DF /* Build configuration list for PBXNativeTarget "UMVHIDDriver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8584BAE11D290E8A004C21DF /* Debug */,
+				8584BAE21D290E8A004C21DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8584BACD1D290E8A004C21DF /* Project object */;
+}
